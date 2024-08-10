@@ -1,0 +1,92 @@
+.workimage{
+flex: 1;
+}
+.artworkproduct{
+    display: flex;
+    margin: 100px 0px;
+    
+}
+.workimage{
+    display: flex;
+    gap: 30px;
+
+
+}
+.workimage img{
+
+    max-width: 397px;
+    max-height: 469px;
+    object-fit: cover;
+}
+.artimage_sidesection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.addtocart{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.buynow{
+    width: 200px;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.workdata{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.workdata p{
+    max-width: 500px;
+   
+}
+.workdata h2{
+    color: #898989;
+}
+.purchasebutton{
+    display: flex;
+    gap: 20px;
+}
+.artisticon{
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+}
+.artist{
+    display: flex;
+}
+.artdescription,p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+}
+.relatedart{
+    text-align: center;
+}
+.artworkvedio{
+    margin: 50px 0px;
+}
+.relatedwork{
+    max-width: 356px;
+    height: 442px;
+    background: #d1cece;
+}
+.relatedworks {
+    display: flex;
+    gap: 30px;
+    max-width: 1341px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+  }

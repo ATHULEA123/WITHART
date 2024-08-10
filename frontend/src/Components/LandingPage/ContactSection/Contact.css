@@ -1,0 +1,40 @@
+.contactsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 100px 0px;
+   
+}
+.contactsection h1{
+    text-align: center;
+}
+.contactinput{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contactinput input{
+    width: 580px;
+    height: 46px;
+    border-radius: 15px;
+  
+    border: 2px solid black;
+}
+.contactinput textarea{
+
+    height: 174px;
+    width: 580px;
+    border-radius: 15px;
+    border-color: black;
+    border: 2px solid black;
+}
+.contact_submit{
+    width: 215px;
+    height: 65px;
+    background: #000;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.aboutsection h1{
+    color: black;
+    text-align: center;
+
+}
+.aboutsection {
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.aboutsection p{
+    color: black;
+    text-align: center;
+    font-size: 28px;
+
+}

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.navbars{
+    display: flex;
+    gap: 40px;
+}
+.navbars li{
+    list-style: none;
+}
+.headerlogo{
+    width: 70px;
+}
+.headerlink{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.searchdata{
+    width: 280px;
+    height:60px;
+    background: #fff;
+    top: 30px;
+    border-radius: 15px;
+    z-index: 1;
+    margin-left: 0px;
+   
+}
+.searchdata input{
+    width: 280px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+}

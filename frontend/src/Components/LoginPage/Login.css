@@ -1,0 +1,73 @@
+.login{
+    width: 100%;
+    box-shadow: inset black;
+
+}
+.loginimage{
+
+    max-height: 600px;
+    max-width: 600px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+   margin-left: 20px;
+    top: 60px;
+}
+.text{
+   position: absolute;
+    z-index: 1;
+}
+.login{
+    display: flex;
+    gap: 50px;
+   
+    justify-content: center;
+}
+.input{
+  
+        font-size: 16px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 300px;
+        border: none;
+        border-bottom: 1px solid #515151;
+        
+        background: transparent;
+      
+}
+.loginhead{
+    font-size: 34px;
+    text-align: center;
+}
+.Login_right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.loginbutton{
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    background-color:#000000;
+    color: #FFf;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.link{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.input:focus-visible {
+    outline-offset: none !important;
+    border: transparent;
+}
+.registerbutton{
+    background-color: transparent;
+    color: black;
+}

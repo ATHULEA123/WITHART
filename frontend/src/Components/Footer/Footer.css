@@ -1,0 +1,14 @@
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+.fourth input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+.fourth button{
+    border: none;
+    
+}

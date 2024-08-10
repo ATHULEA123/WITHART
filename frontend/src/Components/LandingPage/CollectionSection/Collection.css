@@ -1,0 +1,56 @@
+.collection_section {
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  }
+  
+  .collection_section h1 {
+    font-size: 2em;
+  
+  }
+  
+  .collection_section p {
+    font-size: 28px;
+   
+  }
+  
+  .collection_section img {
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+    position: relative;
+  }
+  
+  .collection_section .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .collection_section .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .collection_section .image-container::after {
+    content: "Explore Collections";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 68px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .collection_section .image-container:hover img {
+    filter: brightness(50%);
+    zoom: 3fr;
+  }
+  
+  .collection_section .image-container:hover::after {
+    opacity: 1;
+  }
+  
